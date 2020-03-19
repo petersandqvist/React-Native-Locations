@@ -5,19 +5,16 @@ import GetLocations from './components/GetLocations';
 
 const App = () => {
   return (
-    <View>
+    <View style={styles.Container}>
       <Header />
-      <View style={styles.Container}>
-        <GetLocations />
-      </View>
+      <GetLocations />
     </View>
   );
 };
 
 const styles = StyleSheet.create({
   Container: {
-    padding: 3,
-    margin: 3,
+    flex: 1,
   },
 });
 
