@@ -1,2 +1,2 @@
-# React-Native-Locations
-List of locations loaded from API
+# React-Native-Locations, test from Karma
+List of locations loaded from external JSON-file
